@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.inside-login{
+  padding-left: 40px!important;
+  display: inline-block;
+}
+
+.login_page{
+  display: inline-block;
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #b0c6d5;
+  background-color: #1c1c1d;
+  position: absolute;
+  border-radius: 10px;
+  left: 410px;
+  top: 200px;
+}
+
+.login_page h2 {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40%;
+  color: #b0c6d5;
+}
+
+.login_page video{
+  height: 300px;
+  width: 300px;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #b0c6d5;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 0;
+  border-bottom: 3px solid #b0c6d5;
+  background-color: transparent;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #b0c6d5;
+  text-align: center;
+}
+
+.inside-login button{
+  background-color: #1c1c1d;
+  color: #b0c6d5;
+  border: 3px solid #b0c6d5;
+  cursor: pointer;
+}
+
+.inside-login button:hover{
+  background-color: #b0c6d5;
+  color: #1c1c1d;
+}
+
+.form a{
+  margin-left: 240px;
+  color: blue;
+
+}
+
+.form h5 {
+  text-align: right;
+  color: #b0c6d5;
+  font-weight: bold;
+}
+
+form h4{
+  color: #b0c6d5;
+  text-align: right;
+  font-size: 12PX;
+}
+
+form a {
+  text-decoration: none;
+}
+
+#formpw{
+width: 100%;
+}
+
+button#login {
+  color: #b0c6d5;
+  background-color: #1c1c1d;
+  border: 2px solid #b0c6d5;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#message{
+  color: red;
+}
+
+@media only screen and  (max-width:1024px) {
+  .login_page{
+    left: 17%;
+  }
+
+  header.menubar{
+    margin-bottom: 620px!important;
+  }
+}

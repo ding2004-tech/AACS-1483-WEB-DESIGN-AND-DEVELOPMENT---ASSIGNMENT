@@ -1,0 +1,328 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+ .boxx {
+    margin: 100px 180px 0 180px;
+    color:#b0c6d5;
+    background-attachment: scroll;
+    padding:0px;
+    
+    
+ }
+
+ .product {
+    padding:20px 0 10px 20px;
+ }
+
+ .address {
+    background-color: rgba(98, 96, 96, 0.4);
+    backdrop-filter: blur;
+    margin-bottom: 30px;
+    padding:20px;
+ }
+
+ .user {
+    padding-top:10px;
+ }
+
+ .itemslot {
+    background-color: rgba(98, 96, 96, 0.4);
+    backdrop-filter: blur;
+    margin-bottom: 30px;
+ }
+
+ .cart-item {
+    border-top: 1px solid #b0c6d5;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item img {
+    max-width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    float:left;
+    background-color: white;
+}
+
+.cart-item h2 {
+    font-size: 18px;
+    margin-top: -49px;
+    padding:5px;
+    position: relative;
+}
+
+.p1 {
+    margin: 60px 30px 0 95px;
+    position: absolute;
+}
+
+.p2 {
+    margin-left:58%;
+    position: absolute;
+    color: black;
+    background-color: #b0c6d5;
+    padding: 5px;
+}
+
+.cart-item > .p2 {
+    color: #b0c6d5;
+    border: 2px solid #b0c6d5;
+    background-color: #1c1c1d;
+}
+
+.cart-item button {
+    position: absolute;
+    background-color: #1c1c1d;
+    border:none;
+    color: #b0c6d5;
+    margin-left: 65%;
+    cursor: pointer;
+    padding: 6px;
+    font-weight: bold;
+    border: 2px solid #b0c6d5;
+}
+
+.cart-item button:hover {
+    background-color: #b0c6d5;
+    color:#1c1c1d;
+    border: 3px solid #1c1c1d;   
+}
+
+.delievery {
+    background-color: rgba(98, 96, 96, 0.4);
+    backdrop-filter: blur;
+    margin-bottom: 30px;
+    padding:20px;
+}
+
+.c {
+    position:relative;
+}
+
+
+.checkout {
+    background-color: rgba(98, 96, 96, 0.4);
+    backdrop-filter: blur;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#field {
+    clear:both;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom:-60px;
+}
+
+.nname {
+    padding-top: 30px;
+}
+
+#googleP {
+    background-color: rgba(98, 96, 96, 0);
+    padding:20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+    border: 5px white solid;
+    position:relative;
+}
+
+#googleP:active {
+    border: 5px solid #b0c6d5;
+    color:#b0c6d5;
+}
+
+.payment h1 {
+    margin-bottom: 20px;
+}
+
+.payment {
+    background-color: rgba(98, 96, 96, 0.4);
+    backdrop-filter: blur;
+    margin-bottom: 20px;
+    padding:20px;
+    padding-bottom:100px;
+}
+
+#creditCardFields {
+    padding-top: 30px;
+    padding-bottom:80px;
+}
+
+.card .tMethod,
+.card .pMethod {
+    width: 20%;
+    float: left;
+    padding:20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+    border: 5px white solid;
+    margin-bottom: 10px ;
+    position:relative;
+}
+
+#visa1:checked ~ .card .pMethod,
+#visa2:checked ~ .card .tMethod
+{
+    border: 5px solid #b0c6d5;
+    color:#b0c6d5;
+}
+
+.card #cardButton {
+    width: 20%;
+    float: left;
+    padding:32px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(98, 96, 96, 0);;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+    border: 5px white solid;
+    margin-bottom: 10px ;
+    position:relative;
+    text-align: center;
+}
+
+.card .tMethod {
+    margin: 0 20px;
+ }
+
+.card .visa {
+    padding-left: 20px;
+}
+
+.card .material-symbols-outlined {
+    position: relative;
+    font-size: 40px;
+
+}
+
+.category label {
+    width: 20%;
+    float: left;
+    padding:20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+    border: 5px solid white ;
+    margin-bottom: 10px ;
+}
+
+#cash:checked ~ .category .cashMethod,
+#google:checked ~ .category .googleMethod,
+#debit:checked ~ .category .debitMethod
+{
+    border: 5px solid #b0c6d5;
+    color:#b0c6d5;
+}
+
+#paymentForm input {
+    display:none;
+}
+
+.category label:nth-child(2) {
+   margin: 0 20px;
+}
+
+#place {
+    position: absolute;
+    background-color: #1c1c1d;
+    border:2px solid #b0c6d5;
+    margin-left: 63.5%;
+    margin-top: -4.5%;
+    padding:10px;
+    font-weight: bold;
+    color: #b0c6d5;
+}
+
+#place:hover{
+    color: #1c1c1d;
+    background-color: #b0c6d5;
+    border:2px solid #1c1c1d;
+}
+
+.card label.pMethod:hover {
+    border:5px solid #b0c6d5;
+    color: #b0c6d5;
+}
+
+.card label.tMethod:hover {
+    border:5px solid #b0c6d5;
+    color: #b0c6d5;
+}
+
+.card button#cardButton:hover{
+    border:5px solid #b0c6d5;
+    color: #b0c6d5;
+}
+
+@media only screen and  (max-width:1024px) {
+    .boxx {
+        margin: 100px 120px 0 120px;
+    }
+
+    #place {
+        margin-left: 60%;
+    }
+
+    .cart-item button {
+        margin-left:65%!important;
+
+    }
+
+    .cart-item > .p2 {
+        margin-left: 55%;
+    }
+
+    .category label {
+        width: 24%;
+        padding:  20px;
+    }
+
+    .category label.debitMethod{
+        width: 24%;
+        padding:  13px!important;
+        padding-right: 5px!important;
+
+    }
+
+    .card label.pMethod {
+        width: 25%;
+    }
+
+    .card label.tMethod {
+        width: 25%;
+        padding: 12px!important;
+    }
+
+    .card button#cardButton{
+        width: 28%;
+    }
+
+    .category label.debitMethod > span.cashName{
+        margin-left: 5px!important;
+    }
+
+}

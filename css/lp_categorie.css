@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.filter_list table{
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid #b0c6d5;
+    padding: 30px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: #1c1c1d;
+    margin-bottom: 2200px;
+}
+
+.filter_list th{
+    font-size: 25px;
+    color: #b0c6d5;
+    border-bottom: 1px solid #b0c6d5;;
+}
+
+.filter_list td{
+    color: #b0c6d5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    position: absolute;
+    top: 24.4%;
+    left: 13%;
+    right: 10%;
+}
+
+.product-card {
+    width: 250px;
+    position: relative;
+    left: 20%;
+    box-shadow: 0 2px 7px #dfdfdf;
+    background: #1c1c1d;
+    float:left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b0c6d5;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #b0c6d5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: dodgerblue;
+}
+
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #b0c6d5;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #b0c6d5;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: dodgerblue;
+}
+
+@media only screen and  (max-width:1024px) {
+
+    .card{
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        right: 10%;
+
+    }
+
+    .product-card{
+        width: 600px;
+        margin-bottom: 10px;
+        height: 130px;
+
+    }
+
+    .product-tumb{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        height: 130px;
+        width: 130px;
+        padding: 10px;
+        float: left;
+
+    }
+
+    .product-tumb img {
+        max-width: 100%;
+        max-height: 100%;
+        background-color: white;
+    }
+
+    .product-links a {
+        font-size: 20px;
+    }
+
+    .product-details {
+        padding-bottom: 15px !important;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 15px;
+        width: 470px;
+        height: 130px;
+        float: left;
+    }
+
+    .filter_list table{
+
+        margin-bottom: 2100px;
+    }
+}

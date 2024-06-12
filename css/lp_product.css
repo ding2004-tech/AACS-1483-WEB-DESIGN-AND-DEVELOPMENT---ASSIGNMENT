@@ -1,0 +1,146 @@
+.slideshow-container {
+    max-width: 20%;
+    max-height: 20%;
+    position: relative;
+    top: 20px;
+    left: 20%;
+    margin-bottom: 200px;
+    border: 10px solid #b0c6d5;
+    background-color: white;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+th#title{
+    color: #b0c6d5;
+}
+
+.product_list{
+    color: #b0c6d5;
+}
+
+.product_list table {
+    border-radius: 20px;
+    top: 27%;
+
+}
+
+h2{
+    margin-top: 2.1%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: .1px solid gray;
+    background-color: gray;
+}
+
+table{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    font-size: 20px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.quantity button{
+    padding: 15px;
+    color: #b0c6d5;
+    background-color: #1c1c1d;
+    border: 3px solid #b0c6d5;
+    border-radius: 100px;
+}
+
+table.quantity{
+    top: 60%;
+    left: 50%;
+    border-collapse: separate;
+    border-spacing: 30px;
+    font-size: 15px;
+}
+
+.quantity button:hover{
+    color: #1c1c1d;
+    background-color: #b0c6d5;
+    font-weight: bold;
+}
+
+.quantity th{
+    color: #b0c6d5;
+    font-size: 20px;
+}
+
+table.product_description{
+    top: 80%;
+    left: 8%;
+    border-collapse: separate;
+    border-spacing: 50px;
+    margin-bottom: 100px;
+    background-color: #f0f0f0;
+    margin-right: 40px;
+}
+
+div.product_description{
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-bottom: 1800px;
+}
+
+.product_description tr{
+    border-bottom: 1px solid black;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+sup{
+    font-size: 10px;
+}
+
+@media only screen and  (max-width:1024px) {
+
+    h2{
+        margin-top: 3%;
+    }
+
+    table{
+        font-size: 20px;
+        top: 22%;
+    }
+
+    .slideshow-container {
+        max-width: 25%;
+        max-height: 25%;
+    }
+
+    th#title{
+        font-size: 28px !important;
+    }
+
+    .product_list table {
+        position: absolute;
+        left: 430px;
+        top: 255px;
+    }
+
+    table.quantity {
+        position: absolute;
+        top: 20%!important;
+        left: 80%!important;
+    }
+
+}
